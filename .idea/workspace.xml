@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e58306c-0bb7-4cc8-ab1e-c8e48d9e71ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/isEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile/profile-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/register-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subCategory/sub-category-validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formType/formType.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/formType/formType.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formType/formType.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/formType/formType.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/gssapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/gssapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/mongocr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/mongocr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/plain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/scram.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/scram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/sspi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/sspi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/x509.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/x509.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/apm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/apm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/pool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/monitoring.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/monitoring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_description.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/server_selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology_description.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sdam/topology_description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/mongos.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/mongos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset_state.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset_state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/transactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/transactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/wireprotocol/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/aggregation_cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/aggregation_cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/authenticate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/command_cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/command_cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/collection_ops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/collection_ops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/db_ops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/db_ops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/mongo_client_ops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/mongo_client_ops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/replset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/replset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/topology_base.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/topologies/topology_base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/applyHooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignVals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignVals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/applyQueryMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/applyQueryMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/cleanPositionalOperators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/schema/cleanPositionalOperators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/castArrayFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/castArrayFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/plugins/validateBeforeSave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/codes.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/codes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/register/register-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/register-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1280">
+              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helper/mailer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/register-router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/profile-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/verify-register-token.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/passport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/login-router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/login-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="943">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register/register-model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>updated</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/permission/permission-controller.js" />
+        <option value="$PROJECT_DIR$/permission/permission-router.js" />
+        <option value="$PROJECT_DIR$/role/role-controller.js" />
+        <option value="$PROJECT_DIR$/role/role-router.js" />
+        <option value="$PROJECT_DIR$/validation/empty.js" />
+        <option value="$PROJECT_DIR$/validation/register.js" />
+        <option value="$PROJECT_DIR$/register/register-test.js" />
+        <option value="$PROJECT_DIR$/helper/logger.js" />
+        <option value="$PROJECT_DIR$/role/role-model.js" />
+        <option value="$PROJECT_DIR$/helper/mailer.js" />
+        <option value="$PROJECT_DIR$/login/login-router.js" />
+        <option value="$PROJECT_DIR$/config/google.js" />
+        <option value="$PROJECT_DIR$/config/facebook.js" />
+        <option value="$PROJECT_DIR$/config/database.js" />
+        <option value="$PROJECT_DIR$/register/verify-register-token.js" />
+        <option value="$PROJECT_DIR$/register/register-router.js" />
+        <option value="$PROJECT_DIR$/login/login-controller.js" />
+        <option value="$PROJECT_DIR$/register/register-model.js" />
+        <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/helper/cloudUpload.js" />
+        <option value="$PROJECT_DIR$/helper/upload.js" />
+        <option value="$PROJECT_DIR$/middleware/uploadImage.js" />
+        <option value="$PROJECT_DIR$/profile-media/model.js" />
+        <option value="$PROJECT_DIR$/profile-media/media.controller.js" />
+        <option value="$PROJECT_DIR$/profile-media/media.router.js" />
+        <option value="$PROJECT_DIR$/productImage/productImage.router.js" />
+        <option value="$PROJECT_DIR$/productImage/productImage.controller.js" />
+        <option value="$PROJECT_DIR$/subCategory/sub.model.js" />
+        <option value="$PROJECT_DIR$/formType/formType.model.js" />
+        <option value="$PROJECT_DIR$/profile/profile-model.js" />
+        <option value="$PROJECT_DIR$/category/category.router.js" />
+        <option value="$PROJECT_DIR$/profile/profile-controller.js" />
+        <option value="$PROJECT_DIR$/product/product.controller.js" />
+        <option value="$PROJECT_DIR$/subCategory/sub.router.js" />
+        <option value="$PROJECT_DIR$/subCategory/sub.controller.js" />
+        <option value="$PROJECT_DIR$/category/category.controller.js" />
+        <option value="$PROJECT_DIR$/category/category.model.js" />
+        <option value="$PROJECT_DIR$/product/product.model.js" />
+        <option value="$PROJECT_DIR$/productImage/productImage.model.js" />
+        <option value="$PROJECT_DIR$/product/product.router.js" />
+        <option value="$PROJECT_DIR$/profile/profile-router.js" />
+        <option value="$PROJECT_DIR$/formType/formType.controller.js" />
+        <option value="$PROJECT_DIR$/formType/formType.router.js" />
+        <option value="$PROJECT_DIR$/login/login-validation.js" />
+        <option value="$PROJECT_DIR$/product/product-validation.js" />
+        <option value="$PROJECT_DIR$/profile/profile-validation.js" />
+        <option value="$PROJECT_DIR$/subCategory/sub-category-validation.js" />
+        <option value="$PROJECT_DIR$/register/register-validation.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/register/register-controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="383" />
+    <option name="y" value="118" />
+    <option name="width" value="909" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rest-api-movement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-movement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest-api-movement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-api-movement" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.15.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/helper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="register/register-test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/register/register-test.js</test-file>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.register/register-test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e58306c-0bb7-4cc8-ab1e-c8e48d9e71ee" name="Default Changelist" comment="" />
+      <created>1553550038924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553550038924</updated>
+      <workItem from="1553550040314" duration="10936000" />
+      <workItem from="1553612854472" duration="3460000" />
+      <workItem from="1553625507491" duration="9644000" />
+      <workItem from="1553720991377" duration="15577000" />
+      <workItem from="1553782645608" duration="2526000" />
+      <workItem from="1553786036041" duration="6208000" />
+      <workItem from="1553806499772" duration="7597000" />
+      <workItem from="1553862546143" duration="2823000" />
+      <workItem from="1553949444979" duration="40367000" />
+      <workItem from="1554113056786" duration="533000" />
+      <workItem from="1554119014624" duration="8590000" />
+      <workItem from="1554193780814" duration="11795000" />
+      <workItem from="1554227778306" duration="5989000" />
+      <workItem from="1554306502835" duration="572000" />
+      <workItem from="1554573504720" duration="9184000" />
+      <workItem from="1554828783993" duration="1744000" />
+      <workItem from="1554887450988" duration="3677000" />
+      <workItem from="1554930775310" duration="313000" />
+      <workItem from="1555059491280" duration="2260000" />
+      <workItem from="1555163227589" duration="546000" />
+      <workItem from="1555166157856" duration="557000" />
+      <workItem from="1555216607623" duration="588000" />
+      <workItem from="1555322336309" duration="9924000" />
+      <workItem from="1555410801205" duration="2194000" />
+      <workItem from="1555597037025" duration="3429000" />
+      <workItem from="1556486499816" duration="8177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="register_register-test_js - 2019.03.26 at 11h 29m 32s.xml">
+      <configuration name="register/register-test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="register_register-test_js - 2019.03.26 at 11h 40m 19s.xml">
+      <configuration name="register/register-test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="register_register-test_js - 2019.03.26 at 11h 40m 32s.xml">
+      <configuration name="register/register-test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="register_register-test_js - 2019.03.26 at 11h 40m 46s.xml">
+      <configuration name="register/register-test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="register_register-test_js - 2019.03.26 at 11h 41m 01s.xml">
+      <configuration name="register/register-test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="169210000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2523511" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32809773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32809773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2739965" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/register-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/facebook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/Screenshot from 2019-02-11 21-07-13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/uploadImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productUpload/Screenshot from 2019-01-31 23-31-29.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-media/media.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/category.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-media/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62537">
+          <caret line="2719" selection-start-line="2719" selection-end-line="2719" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subCategory/sub.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subCategory/sub.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/category.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/category.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission/permission-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productImage/productImage.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productImage/productImage.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productImage/productImage.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/profile-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formType/formType.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formType/formType.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formType/formType.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/isEmpty.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/profile-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subCategory/sub.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/login-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/profile-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-media/media.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/cloudUpload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/register-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subCategory/sub-category-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/profile-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/register-model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper/mailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/verify-register-token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/login-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/login-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/register-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/register-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
